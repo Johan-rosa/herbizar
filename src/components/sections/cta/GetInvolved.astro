@@ -24,19 +24,6 @@ const { className } = Astro.props;
     </SubTitle2>
   </Container>
   <Container className="space-y-10 md:sapce-y-12">
-    <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-6 lg:gap-8">
-      {
-        getInvolvedSection.initiatives.map((initiative) => {
-          return (
-            <InvolvementCard
-              title={initiative.title}
-              description={initiative.description}
-              visual={initiative.visual}
-            />
-          );
-        })
-      }
-    </div>
 
     <div class="flex justify-center">
       <EmailForm />

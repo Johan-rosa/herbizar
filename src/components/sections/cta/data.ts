@@ -4,9 +4,9 @@ import svg3 from "./assets/green-3.svg?raw";
 import svg4 from "./assets/green-4.svg?raw";
 
 export const getInvolvedSection = {
-  title: "Get Involved",
-  subheading1_1: "Join Us ",
-  subheading1_2: "in Building a Sustainable Future",
+  title: "Solicita más información",
+  subheading1_1: "Suscribete ",
+  subheading1_2: "y recibe más detalles de nuestros productos y soluciones",
   initiatives: [
     {
       title: "Community Outreach",
