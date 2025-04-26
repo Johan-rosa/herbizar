@@ -1,5 +1,5 @@
 import img1 from "./assets/solar3.png";
-import img2 from "./assets/wind.png";
+import img2 from "./assets/contador.jpeg";
 // TODO
 import img3 from "./assets/hydro.png";
 import img4 from "./assets/storage.png";
@@ -23,9 +23,9 @@ export const servicesSectionData = {
       visual: img1,
     },
     {
-      title: "Captación de Energía Eólica",
+      title: "Medidores modernos",
       briefDescription:
-        "Aprovecha la fuerza del viento. Nuestras soluciones eólicas ofrecen una forma sostenible y eficiente de generar electricidad para un futuro más verde.",
+        "Soluciones de medición eléctrica para una gestión energética eficiente. Nuestros medidores permiten un control preciso del consumo y monitoreo en tiempo real",
       visual: img2,
     },
     {
