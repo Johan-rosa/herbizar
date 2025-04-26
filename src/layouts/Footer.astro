@@ -1,101 +1,23 @@
 ---
-import GroupFooterNav from "../components/blocks/GroupFooterNav.astro";
 import Container from "../components/shared/Container.astro";
-import FooterNav from "../components/shared/FooterNav.astro";
 import Paragraph from "../components/shared/Paragraph.astro";
-
-const footerNav1 = [
-  {
-    itemText: "Marketing",
-    itemLink: "#",
-  },
-  {
-    itemText: "Analylitics",
-    itemLink: "#",
-  },
-  {
-    itemText: "Commerce",
-    itemLink: "#",
-  },
-  {
-    itemText: "Insights",
-    itemLink: "#",
-  },
-];
-
-const footerSupport = [
-  {
-    itemText: "Pricing",
-    itemLink: "#",
-  },
-  {
-    itemText: "Guides",
-    itemLink: "#",
-  },
-  {
-    itemText: "FAQ",
-    itemLink: "#",
-  },
-  {
-    itemText: "Contact",
-    itemLink: "#",
-  },
-];
-
-const footerCompany = [
-  {
-    itemText: "About",
-    itemLink: "#",
-  },
-  {
-    itemText: "Blog",
-    itemLink: "#",
-  },
-  {
-    itemText: "Jobs",
-    itemLink: "#",
-  },
-  {
-    itemText: "Parteners",
-    itemLink: "#",
-  },
-  {
-    itemText: "Jobs",
-    itemLink: "#",
-  },
-];
-const footerLegal = [
-  {
-    itemText: "Claim",
-    itemLink: "#",
-  },
-  {
-    itemText: "Privacy",
-    itemLink: "#",
-  },
-  {
-    itemText: "Terms",
-    itemLink: "#",
-  },
-];
 ---
 
 <div class="relative mt-16 bg-base-200 dark:bg-base-dark-800">
-  <footer class="relative pt-28 rounded-t-3xl">
-    <Container className="pb-8 relative overflow-auto ">
+  <footer class="relative pt-12 rounded-t-3xl">
+    <Container className="pb-4 relative overflow-auto ">
       <div
-        class="grid grid-cols-2 lg:grid-cols-3 lg:items-stretch gap-8 relative"
+        class="grid grid-cols-1 lg:grid-cols-1 lg:items-stretch gap-5 relative"
       >
         <div class="col-span-2 lg:col-span-1 h-auto flex flex-col">
           <div class="h-full">
             <a href="#" class="relative flex items-center gap-3">
               <div class="inline-flex text-lg font-semibold text-heading-1">
-                [Company Name]
+                HERBIZAR
               </div>
             </a>
             <Paragraph className={"mt-8"}>
-              Elevating Sustainability through Innovative Solutions for a
-              Greener Tomorrow.
+              Elevando la sostenibilidad a través de soluciones innovadoras para un mañana más verde.
             </Paragraph>
           </div>
 
@@ -166,16 +88,6 @@ const footerLegal = [
             </a>
           </div>
         </div>
-
-        <GroupFooterNav>
-          <FooterNav title={"Company"} navItems={footerCompany} />
-          <FooterNav title={"Solutions"} navItems={footerNav1} />
-        </GroupFooterNav>
-
-        <GroupFooterNav>
-          <FooterNav title={"Support"} navItems={footerSupport} />
-          <FooterNav title={"Ressources"} navItems={footerLegal} />
-        </GroupFooterNav>
       </div>
     </Container>
     <div class="py-2 relative">
@@ -184,13 +96,13 @@ const footerLegal = [
           class="flex justify-between items-center gap-6 md:text-lg text-heading-3"
         >
           <div>
-            &copy; <span id="year"></span> [Company Name]. All right reserved
+            &copy; <span id="year"></span> Herbizar. Derechos reservados
           </div>
           <div>
-            Made by <a
+            Powered by <a
               href="https://github.com/vbartalis"
               target="_blank"
-              class="font-semibold">vbartalis</a
+              class="font-semibold">Formula consulting</a
             >
           </div>
         </div>
