@@ -3,9 +3,18 @@ import tailwind from "@astrojs/tailwind";
 
 import react from "@astrojs/react";
 
-// https://astro.build/config
 export default defineConfig({
   integrations: [tailwind(), react()],
   site: "https://vbartalis.github.io",
-  base: "/herbizar"
+  base: "/herbizar",
+  image: {
+    service: {
+      entrypoint: "astro/assets/services/sharp",
+      config: {
+        sharpOptions: {
+          failOnError: false
+        }
+      }
+    }
+  }
 });
