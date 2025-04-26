@@ -5,16 +5,6 @@ import react from "@astrojs/react";
 
 export default defineConfig({
   integrations: [tailwind(), react()],
-  site: "https://vbartalis.github.io",
+  site: "https://johan-rosa.github.io",
   base: "/herbizar",
-  image: {
-    service: {
-      entrypoint: "astro/assets/services/sharp",
-      config: {
-        sharpOptions: {
-          failOnError: false
-        }
-      }
-    }
-  }
 });

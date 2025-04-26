@@ -43,10 +43,10 @@ const { className = "" } = Astro.props;
         </SubTitle>
       </div>
       <div class="flex relative pt-10 md:p-0">
-        <img
-          src="./assets/wind3.jpg"
+        <LazyImage
+          src={heroImg}
           alt="A picture of a wind turbine."
-          class="w-full h-full object-cover"
+          className="w-full h-full object-cover"
         />
         <svg
           class="fill-base-100 dark:fill-base-dark-900 z-10 absolute top-0 start-0 h-full hidden md:block"
