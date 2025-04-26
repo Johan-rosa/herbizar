@@ -8,52 +8,52 @@ import img5 from "./assets/smart-grid.png";
 import img6 from "./assets/green.png";
 
 export const servicesSectionData = {
-  title: "Our Sustainable Energy Solutions",
+  title: "Nuestros principales productos y soluciones",
   subheading: {
-    text1_1: "Experience a Revolution in Energy Solutions - ",
-    text1_2: "Embrace Innovation, Embrace Sustainability.",
+    text1_1: "Vive la revolución energética:",
+    text1_2: "innovación y sostenibilidad en cada solución.",
     text2:
-      "We're here to Empower Your Life and Spaces with Clean, Renewable Energy, Paving the Way for a Brighter and Greener Tomorrow.",
+      "Energizamos tu vida y tus espacios con fuentes limpias y renovables, construyendo juntos un futuro más brillante y verde.",
   },
   services: [
     {
-      title: "Solar Power Solutions",
+      title: "Soluciones de Energía Solar",
       briefDescription:
-        "Harness the power of the sun with our state-of-the-art solar panels. Generate clean energy for your home or business and reduce your carbon footprint.",
+        "Aprovecha el poder del sol con nuestros paneles solares de última generación. Genera energía limpia para tu hogar o negocio y reduce tu huella de carbono.",
       visual: img1,
     },
     {
-      title: "Wind Energy Harvesting",
+      title: "Captación de Energía Eólica",
       briefDescription:
-        "Embrace the power of the wind. Our wind energy solutions provide a sustainable and efficient way to generate electricity, ensuring a greener future.",
+        "Aprovecha la fuerza del viento. Nuestras soluciones eólicas ofrecen una forma sostenible y eficiente de generar electricidad para un futuro más verde.",
       visual: img2,
     },
     {
-      title: "Hydropower Systems",
+      title: "Sistemas de Energía Hidráulica",
       briefDescription:
-        "Flow with nature. Our hydropower systems harness the energy of flowing water, delivering reliable and eco-friendly electricity to your doorstep.",
+        "Fluye con la naturaleza. Nuestros sistemas hidráulicos aprovechan la energía del agua en movimiento para ofrecer electricidad confiable y ecológica.",
       visual: img3,
     },
     {
-      title: "Energy Storage Solutions",
+      title: "Soluciones de Almacenamiento de Energía",
       briefDescription:
-        "Store excess energy efficiently. Our cutting-edge energy storage solutions ensure uninterrupted power supply, even during cloudy days or low-wind periods.",
+        "Almacena el excedente de energía de forma eficiente. Nuestras soluciones de almacenamiento garantizan suministro continuo, incluso en días nublados o sin viento.",
       visual: img4,
     },
     {
-      title: "Smart Grid Technology",
+      title: "Tecnología de Redes Inteligentes",
       briefDescription:
-        "Navigate the future with our smart grid technology. Optimize energy distribution, monitor consumption, and contribute to a more sustainable and efficient energy ecosystem.",
+        "Conéctate al futuro con nuestras redes inteligentes. Optimiza la distribución, monitorea el consumo y aporta a un sistema energético más eficiente y sostenible.",
       visual: img5,
     },
     {
-      title: "Energy-efficient Lighting",
+      title: "Iluminación Energéticamente Eficiente",
       briefDescription:
-        "Illuminate your space responsibly. Our energy-efficient lighting solutions provide bright, sustainable, and cost-effective illumination for homes and businesses.",
+        "Ilumina tu espacio de forma responsable. Nuestras soluciones de iluminación eficiente son sostenibles, brillantes y rentables para hogares y empresas.",
       visual: img6,
     },
   ],
   callToAction:
-    "Discover the Future of Green Energy. Choose Your Sustainable Solution Today!",
-  buttonText: "Explore More",
+    "Descubre el futuro de la energía verde. ¡Elige hoy tu solución sostenible!",
+  buttonText: "Ver más",
 };
